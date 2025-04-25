@@ -1,0 +1,234 @@
+body {
+	background-color: lavenderblush;
+	position: fixed;
+	width:99%;
+	height:100%;
+}
+header {
+	border-style: outset;
+	border-width: 4px;
+	border-color: tan;
+	text-align: center;
+	background-color: lavender;
+	box-sizing: border-box;
+	margin-bottom: 20px;
+	display: flex;
+}
+header h1 {
+	font-size: 2em;
+	font-family: "Lucida Sans Typewriter", Consolas, monospace;
+	margin: 2px;
+	letter-spacing: 20px;
+	transform: scaleY(0.7);
+	padding-right: 70px;
+	margin: auto;
+}
+header div {
+	border-style: outset;
+	border-width: 4px;
+	border-color: tan;
+	background-color: lavenderblush;
+	width: 70px;
+	margin: 6px;
+	
+	
+	
+}
+div.link_back a {
+	display: block;
+	text-decoration: none;
+	color: black;
+}
+header a:hover {
+	background-color: lightgray;
+}
+main { 
+	border-style: outset;
+	border-width: 4px;
+	border-color: tan;
+	background-color: lavender;
+	display: flex;
+	height: 550px;
+	margin-bottom: 20px;
+	justify-content: center;
+}
+/*SECTION ABOUT THE CODE*/
+section.code_snippets {
+	border-style: outset;
+	border-width: 4px;
+	border-color: tan;
+	background-color: lavenderblush;
+	width: 40%;
+	margin: 6px;
+}
+section.code_snippets h2 {
+	text-align: center;
+	margin-bottom: 4px;
+}
+div.pictures p {
+	margin: 0;
+}
+div.picture_one {
+	border-style: outset;
+	border-width: 4px;
+	border-color: tan;
+	background-color: lavender;
+	margin: 6px;
+	height: 20%;
+}
+div.picture_one img {
+	width: 96%;
+	height: 100px;
+	border-style: outset;
+	border-width: 4px;
+	border-color: tan;
+	margin: 6px;
+}
+div.picture_two {
+	border-style: outset;
+	border-width: 4px;
+	border-color: tan;
+	background-color: lavender;
+	margin: 6px;
+	height: 20%;
+}
+div.picture_two img {
+	width: 96%;
+	height: 100px;
+	border-style: outset;
+	border-width: 4px;
+	border-color: tan;
+	margin: 6px;
+}
+div.picture_three {
+	border-style: outset;
+	border-width: 4px;
+	border-color: tan;
+	background-color: lavender;
+	margin: 6px;
+	height: 10%;
+}
+div.picture_three img {
+	width:96%;
+	height: 100px;
+	border-style: outset;
+	border-width: 4px;
+	border-color: tan;
+	margin: 6px;
+}
+section.about_class {
+	border-style: outset;
+	border-width: 4px;
+	border-color: tan;
+	background-color: lavenderblush;
+	width: 40%;
+	margin: 6px;
+}
+/*SECTION ABOUT THE CLASS*/
+section.about_class h2 {
+	text-align: center;
+}
+div.description {
+	border-style: outset;
+	border-width: 4px;
+	border-color: tan;
+	background-color: lavender;
+	margin: 6px;
+}
+div.description h3 {
+	text-align: center;
+	margin-bottom: 0;
+}
+div.description p {
+	border-style: outset;
+	border-width: 4px;
+	border-color: tan;
+	background-color: lavenderblush;
+	margin:6px;
+	box-sizing: border-box;
+	padding:1px;
+}
+div.description h4 {
+	text-align: center;
+	margin-top: 4px;
+	margin-bottom: 4px;
+}
+div.description ul {
+	border-style: outset;
+	border-width: 4px;
+	border-color: tan;
+	background-color: lavenderblush;
+	margin:6px;
+}
+	
+	
+div.class_grade {
+	border-style: outset;
+	border-width: 4px;
+	border-color: tan;
+	background-color: lavender;
+	margin: 6px;
+}
+div.class_grade h3{
+	text-align: center;
+	margin-top:4px;
+	margin-bottom: 4px;
+}
+div.class_grade h4 {
+	text-align: center;
+	border-style: outset;
+	border-width: 4px;
+	border-color: tan;
+	background-color: lavenderblush;
+	width: 5%;
+	margin: auto;
+	margin-bottom: 20px;
+}
+div.executables {
+	border-style: outset;
+	border-width: 4px;
+	border-color: tan;
+	background-color: lavender;
+	margin:6px;
+}
+div.executables h3 {
+	text-align: center;
+}
+div.executables h4 {
+	text-align: center;
+}
+div.download_buttons ul {
+	display: flex;
+	width: 100%;
+	padding: 0;
+}
+div.download_buttons li {
+	display: inline-block;
+	border-style: outset;
+	border-width: 4px;
+	border-color: tan;
+	background-color: lavenderblush;
+	margin:auto;
+	width: 150px;
+}
+div.download_buttons a {
+	text-decoration: none;
+	color: black;
+	display: block;
+	text-align: center;
+	
+}
+div.download_buttons a:hover {
+	background-color: lightgray;
+}
+/*footer code*/
+footer { 
+	border-style: outset;
+	border-width: 4px;
+	border-color: tan;
+	text-align: center;
+	background-color: lavender;
+}
+footer p {
+	display: inline;
+}

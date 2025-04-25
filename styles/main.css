@@ -1,0 +1,250 @@
+body { 
+	background-color: lavenderblush;
+	
+	position: fixed;
+	
+}
+header {
+	border-style: outset;
+	border-width: 4px;
+	border-color: tan;
+	text-align: center;
+	background-color: lavender;
+	box-sizing: border-box;
+	margin-bottom: 20px;
+}
+header h1 {
+	font-size: 2em;
+	font-family: "Lucida Sans Typewriter", Consolas, monospace;
+	padding: 0px;
+	margin: 2px;
+	letter-spacing: 20px;
+	transform: scaleY(0.7);
+}
+/*main information*/
+main {
+	border-style: outset;
+	border-width: 4px;
+	border-color: tan;
+	background-color: lavender;
+	display: flex;
+	height: 550px;
+	margin-bottom: 20px;
+	justify-content: center;
+}
+
+/*about me section*/
+main section.about_me_section {
+	border-style: outset;
+	border-width: 4px;
+	border-color: tan;
+	background-color: lavenderblush;
+	margin: 20px;
+	width: 700px;
+	padding: 6px;
+}
+div.about_me { 
+	border-style: outset;
+	border-width: 4px;
+	border-color: tan;
+	width: 300px;
+	height: 415px;
+	width: auto;
+	background-color: lavender;
+	margin-bottom: 6px;
+}
+div.about_me img {
+	height: 150px;
+	width: 150px;
+	float: left;
+	border-style: outset;
+	border-width: 4px;
+	border-color: tan;
+	margin: 6px;
+}
+div.about_me h2 {
+	text-align: center;
+}
+div.name_info {
+	 
+}
+div.name_info h4, div.name_info p {
+	display:inline;
+}
+div.d_o_b {
+	margin-top: 15px;
+}
+div.d_o_b h4, div.d_o_b p {
+	display: inline;
+}
+div.occupation_info {
+	 margin-top: 15px;
+}
+div.occupation_info h4,div.occupation_info p  {
+	display: inline;
+}
+div.more_info  {
+	margin-top: 20px;
+	margin-left: 6px;
+	margin-right: 6px;
+	margin-bottom: 6px;
+	height: 54%;
+	display: flex;
+}
+div.hobbies {
+	border-style: outset;
+	border-width: 4px;
+	border-color: tan;
+	margin: auto;
+	width: 40%;
+	height: 100%;
+	background-color: lavenderblush;
+}
+div.hobbies h3 {
+	text-align: center;
+}
+div.hobbies li {
+	 margin: 9%;
+}
+div.extras_info {
+	 border-style: outset;
+	border-width: 4px;
+	border-color: tan;
+	margin: auto;
+	width: 40%;
+	height: 100%;
+	background-color: lavenderblush;
+}
+div.extras_info h3 { 
+	text-align: center;
+}
+div.extras_info li { 
+	margin: 9%;
+}
+div.navigation_bar {
+	border-style: outset;
+	border-width: 4px;
+	border-color: tan;
+	width: auto;
+	background-color: lavender;
+	display: flex;
+	justify-content: center;
+}
+div.navigation_bar ul { 
+	list-style-type: none;
+	width: 80%;
+	display: flex;
+	justify-content: center;
+	padding: 0;
+}
+div.navigation_bar li {
+	 display: inline;
+	 border-style: outset;
+	border-width: 4px;
+	border-color: tan;
+	width: 100px;
+	height: 68%;
+	background-color: lavenderblush;
+	text-align: center;
+	margin: auto;
+}
+div.navigation_bar a { 
+	display: block;
+	text-decoration: none;
+	width: 100px;
+	color: black;
+}
+div.navigation_bar a:hover {
+	 background-color: lightgray;
+}
+
+/*CPT section*/
+main section.cpt_class_section { 
+	border-style: outset;
+	border-width: 4px;
+	border-color: tan;
+	text-align: center;
+	background-color: lavenderblush;
+	margin: 20px;
+	width: 300px;
+}
+section.cpt_class_section h3 {
+	text-align: center;
+}
+div.cpt_list ul { 
+	list-style-type: none;
+	margin: auto;
+	padding: 0;
+}
+div.cpt_list li { 
+	border-style: outset;
+	border-width: 4px;
+	border-color: tan;
+	text-align: center;
+	padding: 0;
+	background-color: lavender;
+	margin: 4px;
+}
+div.cpt_list a { 
+	color: black;
+	text-decoration: none;
+	display: block;
+	letter-spacing: 10px;
+	transform: scaleY(0.8);
+	padding: 0;
+}
+div.cpt_list a:hover {
+	background-color: lightgray;
+}
+	
+
+/*IST section*/
+main section.ist_class_section { 
+	border-style: outset;
+	border-width: 4px;
+	border-color: tan;
+	text-align: center;
+	background-color: lavenderblush;
+	margin: 20px;
+	width: 300px;
+}	
+section.ist_class_section h3 {
+	text-align: center;
+}
+div.ist_list ul { 
+	list-style-type: none;
+	margin: auto;
+	padding: 0;
+}
+div.ist_list li { 
+	border-style: outset;
+	border-width: 4px;
+	border-color: tan;
+	text-align: center;
+	padding: 0;
+	background-color: lavender;
+	margin: 4px;
+}
+div.ist_list a { 
+	color: black;
+	text-decoration: none;
+	display: block;
+	letter-spacing: 10px;
+	transform: scaleY(0.8);
+	padding: 0;
+}
+div.ist_list a:hover {
+	background-color: lightgray;
+}
+
+/*footer code*/
+footer { 
+	border-style: outset;
+	border-width: 4px;
+	border-color: tan;
+	text-align: center;
+	background-color: lavender;
+}
+footer p {
+	display: inline;
+}
